@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Listing Page</title>
+  <style>
+
+    .container{
+      display: flex;
+      text-align: start;
+      width: 85%;
+      justify-content: space-around;
+      padding: 10px;
+      
+    }
+    .labels{
+      flex:1;
+      background-color: rgb(230, 229, 227);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: large;
+      width: 100%;
+    }
+
+    .card{
+      margin-right: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 400px;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 20px;
+      margin-left:
+
+    }
+
+
+    .price{
+      color: grey;
+      font-size: 22px;
+    }
+
+    .card button{
+      border:none;
+      outline:0;
+      padding: 12px;
+      color:white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+      
+    }
+
+    .card button:hover{
+      opacity: 0.7;
+    }
+
+   
+
+  </style>
+</head>
+<body>
+  <div class="container">
+  <div class="labels">
+    <label>Computers & Periferals</label>
+    <ul>
+      <li> Laptops</li>
+      <li>Desktops</li>
+      <li> Monitors</li>
+      <li>Mouse</li>
+      <li>Keyboard</li>
+      <li>Printer</li>
+      <li>Mobiles</li>
+      <li>CPU</li>
+    </ul>
+
+    <label>PROCESSORS</label><br>
+    <input type="checkbox" id="" name="Intel Core i7">Intel Core i7<br>
+    <input type="checkbox" id="" name="Intel Core i6">Intel Core i6<br>
+    <input type="checkbox" id="" name="Intel Core i5">Intel Core i5<br>
+    <input type="checkbox" id="" name="Intel Core i3">Intel Core i3<br>
+    <BR>
+
+    <label>BRAND</label><br>
+    <input type="checkbox" id="" name="Apple">Apple<br>
+    <input type="checkbox" id="" name="Dell">Dell<br>
+    <input type="checkbox" id="" name="Asus">Asus<br>
+    <input type="checkbox" id="" name="Acer">Acer<br>
+    <br>
+
+    <label>TYPE</label><br>
+    <input type="checkbox" id="" name="Hybrid">Hybrid<br>
+    <input type="checkbox" id="" name="Laptop">Laptop<br>
+    <input type="checkbox" id="" name="Desktop">Desktop<br>
+    <input type="checkbox" id="" name="Touch">Touch<br>
+    <input type="checkbox" id="" name="Tablet">Tablet<br>
+    <br>
+
+    <label>Price Range</label><br>
+    10000<input type="range" id="" name="Price" min="10000" max="500000" step="10000">
+    <output for="price_range" id="range_value">500000</output>
+  </div>
+  
+  <div class="card">
+    <img src="https://i5.walmartimages.com/asr/3a0b16b3-88f9-4797-a546-8a7a5f3d15cc.9cd02e837eeb8ced4ef44bdac35a84e9.jpeg" alt="laptop" width="100px" height="100px">
+    <h2> Dell XPS Surface</h2>
+    <p class="price">$1,245.89</p>
+    <p><button>Add to cart</button></p>
+    </div>
+    <div class="card">
+      <img src="https://i5.walmartimages.com/asr/3a0b16b3-88f9-4797-a546-8a7a5f3d15cc.9cd02e837eeb8ced4ef44bdac35a84e9.jpeg" alt="laptop" width="100px" height="100px">
+      <h2> Dell XPS Surface</h2>
+      <p class="price">$1,245.89</p>
+      <p><button>Add to cart</button></p>
+      </div>
+
+      <div class="card">
+        <img src="https://i5.walmartimages.com/asr/3a0b16b3-88f9-4797-a546-8a7a5f3d15cc.9cd02e837eeb8ced4ef44bdac35a84e9.jpeg" alt="laptop" width="100px" height="100px">
+        <h2> Dell XPS Surface</h2>
+        <p class="price">$1,245.89</p>
+        <p><button>Add to cart</button></p>
+        </div>
+
+        <div class="card">
+          <img src="https://i5.walmartimages.com/asr/3a0b16b3-88f9-4797-a546-8a7a5f3d15cc.9cd02e837eeb8ced4ef44bdac35a84e9.jpeg" alt="laptop" width="100px" height="100px">
+          <h2> Dell XPS Surface</h2>
+          <p class="price">$1,245.89</p>
+          <p><button>Add to cart</button></p>
+          </div>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Logo</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #fafafa;
+            
+        }
+        .instagram-logo {
+            width: 450px;
+            height: 450px;
+            background: linear-gradient(#6228d7, #ee2a7b,#f9ce34 100%);
+            border-radius: 50%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .camera-outline {
+            width: 70%;
+            height: 70%;
+            border-color: white;
+            border-radius: 20%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(#6228d7, #ee2a7b,#f9ce34 100%);
+            border: 10px solid white;
+        }
+        .camera-lens {
+            width: 40%;
+            height: 40%;
+            border-radius: 50%;
+            border: 10px solid white;
+            background: linear-gradient(#6228d7, #ee2a7b,#f9ce34 100%);
+        }
+        .camera-flash {
+            width: 12%;
+            height: 12%;
+            border: 10px solid white;
+            border-radius: 50%;
+            position: absolute;
+            top: 15%;
+            right: 15%;
+            border: 3px solid white;
+            background: linear-gradient(#6228d7, #ee2a7b,#f9ce34 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="instagram-logo">
+        <div class="camera-outline">
+            <div class="camera-lens"></div>
+            <div class="camera-flash"></div>
+        </div>
+    </div>
+</body>
+</html>
