@@ -1,0 +1,121 @@
+
+        body{
+            /* background: url('https://getwallpapers.com/wallpaper/full/5/d/4/540005.jpg'); */
+             background: linear-gradient(90deg, rgba(101, 101, 95, 0.891) 0%, rgb(0, 0, 0) 100%); 
+
+        }
+
+        .name{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 26px;
+            display: flex;
+            font-weight: 300;
+            color: #fff;
+        }
+
+        .profile-img{
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            border: 2px solid;
+            margin-top: 3%;
+            margin-left: 10%;
+            position: relative;
+
+
+        }
+
+        .navbar{
+            
+            font-size: 24px;
+            color: #fff;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            margin-left: 1000px;
+        }
+
+        .profile{
+            display: inline-flex;
+        }
+
+        .intro{
+            margin-top: 3%;
+            margin-right: 15%;
+            margin-left:5%;
+        }
+
+        .button{
+            width: 100px; 
+            height: 100px;
+            border-radius: 50%; 
+            background: radial-gradient(circle, rgba(119,119,144,1) 0%, rgba(142,155,157,1) 79%, rgba(109,110,110,0.9809173669467787) 99%);
+            color: #fff; 
+            font-size: 18px;
+            border: none; 
+            text-align: center; 
+            line-height: 100px;
+            display: inline-block;
+            margin:30px;
+            font-size: 25px;    
+  }
+
+  .button:hover{
+    cursor: pointer; 
+    transform: scale(1.2);
+    transition-duration: 1s;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+
+  }
+
+  .contact{
+    font-size: 2rem;
+    color: #cec3c3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .social .linkedin{
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    margin: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .social .mail{
+    display: inline-block;
+    height: 80px;
+    width: 90px;
+    margin: 50px;
+    border-radius: 20%;
+    cursor: pointer;
+
+  }
+
+  
+  .social .facebook{
+    height: 90px;
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+    border-radius: 20%;
+    cursor: pointer;
+
+  }
+
+  
+  .social .x{
+    display: inline-block;
+    margin: 50px;
+    cursor: pointer;
+
+  }
+
+  .social{
+    margin-left:20%;
+  }
+
+   
